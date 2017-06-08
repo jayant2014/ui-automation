@@ -1,70 +1,13 @@
-06/05/2017 05:13:52 PM - SeleniumDriver - INFO: Element found with locator: email and  locatorType: id
-06/05/2017 05:13:52 PM - SeleniumDriver - INFO: Sent data on element with locator: email locatorType: id
-06/05/2017 05:13:52 PM - SeleniumDriver - INFO: Element found with locator: pass and  locatorType: id
-06/05/2017 05:13:52 PM - SeleniumDriver - INFO: Sent data on element with locator: pass locatorType: id
-06/05/2017 05:13:52 PM - SeleniumDriver - INFO: Element found with locator: u_0_q and  locatorType: id
-06/05/2017 05:13:53 PM - SeleniumDriver - INFO: Clicked on element with locator: u_0_q locatorType: id
-06/05/2017 05:24:41 PM - LoginPage - INFO: Element found with locator: email and  locatorType: id
-06/05/2017 05:24:42 PM - LoginPage - INFO: Sent data on element with locator: email locatorType: id
-06/05/2017 05:24:42 PM - LoginPage - INFO: Element found with locator: pass and  locatorType: id
-06/05/2017 05:24:42 PM - LoginPage - INFO: Sent data on element with locator: pass locatorType: id
-06/05/2017 05:24:42 PM - LoginPage - INFO: Element found with locator: u_0_q and  locatorType: id
-06/05/2017 05:24:42 PM - LoginPage - INFO: Clicked on element with locator: u_0_q locatorType: id
-06/05/2017 05:24:44 PM - LoginPage - INFO: Element found with locator: //*//span[text()='Jayant'] and  locatorType: xpath
-06/05/2017 05:24:44 PM - LoginPage - INFO: Element found.
-06/05/2017 05:48:22 PM - LoginPage - INFO: Element found with locator: email and  locatorType: id
-06/05/2017 05:48:23 PM - LoginPage - INFO: Sent data on element with locator: email locatorType: id
-06/05/2017 05:48:23 PM - LoginPage - INFO: Element found with locator: pass and  locatorType: id
-06/05/2017 05:48:23 PM - LoginPage - INFO: Sent data on element with locator: pass locatorType: id
-06/05/2017 05:48:23 PM - LoginPage - INFO: Element found with locator: u_0_q and  locatorType: id
-06/05/2017 05:48:23 PM - LoginPage - INFO: Clicked on element with locator: u_0_q locatorType: id
-06/05/2017 05:48:28 PM - LoginPage - INFO: Element not found with locator: //div[contains(text(),'Incorrect password')] and  locatorType: xpath
-06/05/2017 05:48:28 PM - LoginPage - INFO: Element not found.
-06/05/2017 05:48:28 PM - LoginPage - INFO: Element found with locator: email and  locatorType: id
-06/05/2017 05:48:28 PM - LoginPage - INFO: Sent data on element with locator: email locatorType: id
-06/05/2017 05:48:28 PM - LoginPage - INFO: Element found with locator: pass and  locatorType: id
-06/05/2017 05:48:28 PM - LoginPage - INFO: Sent data on element with locator: pass locatorType: id
-06/05/2017 05:48:33 PM - LoginPage - INFO: Element not found with locator: u_0_q and  locatorType: id
-06/05/2017 05:48:33 PM - LoginPage - INFO: Failed to click on the element with locator : u_0_q locatorType: id
-06/05/2017 05:48:39 PM - LoginPage - INFO: Element not found with locator: //*//span[text()='Jayant'] and  locatorType: xpath
-06/05/2017 05:48:39 PM - LoginPage - INFO: Element not found.
-06/05/2017 05:49:58 PM - LoginPage - INFO: Element found with locator: email and  locatorType: id
-06/05/2017 05:49:58 PM - LoginPage - INFO: Sent data on element with locator: email locatorType: id
-06/05/2017 05:49:58 PM - LoginPage - INFO: Element found with locator: pass and  locatorType: id
-06/05/2017 05:49:58 PM - LoginPage - INFO: Sent data on element with locator: pass locatorType: id
-06/05/2017 05:49:58 PM - LoginPage - INFO: Element found with locator: u_0_q and  locatorType: id
-06/05/2017 05:49:58 PM - LoginPage - INFO: Clicked on element with locator: u_0_q locatorType: id
-06/05/2017 05:50:03 PM - LoginPage - INFO: Element not found with locator: //div[contains(text(),'Incorrect password')] and  locatorType: xpath
-06/05/2017 05:50:03 PM - LoginPage - INFO: Element not found.
-06/05/2017 05:50:05 PM - LoginPage - INFO: Element found with locator: email and  locatorType: id
-06/05/2017 05:50:05 PM - LoginPage - INFO: Sent data on element with locator: email locatorType: id
-06/05/2017 05:50:05 PM - LoginPage - INFO: Element found with locator: pass and  locatorType: id
-06/05/2017 05:50:05 PM - LoginPage - INFO: Sent data on element with locator: pass locatorType: id
-06/05/2017 05:50:05 PM - LoginPage - INFO: Element found with locator: u_0_q and  locatorType: id
-06/05/2017 05:50:05 PM - LoginPage - INFO: Clicked on element with locator: u_0_q locatorType: id
-06/05/2017 05:50:06 PM - LoginPage - INFO: Element found with locator: //*//span[text()='Jayant'] and  locatorType: xpath
-06/05/2017 05:50:06 PM - LoginPage - INFO: Element found.
-06/07/2017 04:31:31 PM - LoginPage - INFO: Element found with locator: email and  locatorType: id
-06/07/2017 04:31:31 PM - LoginPage - INFO: Sent data on element with locator: email locatorType: id
-06/07/2017 04:31:31 PM - LoginPage - INFO: Element found with locator: pass and  locatorType: id
-06/07/2017 04:31:31 PM - LoginPage - INFO: Sent data on element with locator: pass locatorType: id
-06/07/2017 04:31:31 PM - LoginPage - INFO: Element found with locator: u_0_q and  locatorType: id
-06/07/2017 04:31:32 PM - LoginPage - INFO: Clicked on element with locator: u_0_q locatorType: id
-06/07/2017 04:31:37 PM - LoginPage - INFO: Element not found with locator: //div[contains(text(),'Incorrect password')] and  locatorType: xpath
-06/07/2017 04:31:37 PM - LoginPage - INFO: Element not found.
-06/07/2017 04:31:37 PM - LoginPage - INFO: Element found with locator: email and  locatorType: id
-06/07/2017 04:31:37 PM - LoginPage - INFO: Sent data on element with locator: email locatorType: id
-06/07/2017 04:31:37 PM - LoginPage - INFO: Element found with locator: pass and  locatorType: id
-06/07/2017 04:31:37 PM - LoginPage - INFO: Sent data on element with locator: pass locatorType: id
-06/07/2017 04:31:42 PM - LoginPage - INFO: Element not found with locator: u_0_q and  locatorType: id
-06/07/2017 04:31:42 PM - LoginPage - INFO: Failed to click on the element with locator : u_0_q locatorType: id
-06/07/2017 04:31:45 PM - LoginPage - INFO: Element not found with locator: //*//span[text()='Jayant'] and  locatorType: xpath
-06/07/2017 04:31:45 PM - LoginPage - INFO: Element not found.
-06/07/2017 04:32:43 PM - LoginPage - INFO: Element found with locator: email and  locatorType: id
-06/07/2017 04:32:43 PM - LoginPage - INFO: Sent data on element with locator: email locatorType: id
-06/07/2017 04:32:43 PM - LoginPage - INFO: Element found with locator: pass and  locatorType: id
-06/07/2017 04:32:44 PM - LoginPage - INFO: Sent data on element with locator: pass locatorType: id
-06/07/2017 04:32:44 PM - LoginPage - INFO: Element found with locator: u_0_q and  locatorType: id
-06/07/2017 04:32:44 PM - LoginPage - INFO: Clicked on element with locator: u_0_q locatorType: id
-06/07/2017 04:32:46 PM - LoginPage - INFO: Element found with locator: //*//span[text()='Jayant'] and  locatorType: xpath
-06/07/2017 04:32:46 PM - LoginPage - INFO: Element found.
+06/08/2017 03:01:35 PM - LoginPage - INFO: Element found with locator: email and  locatorType: id
+06/08/2017 03:01:36 PM - LoginPage - INFO: Sent data on element with locator: email locatorType: id
+06/08/2017 03:01:36 PM - LoginPage - INFO: Element found with locator: pass and  locatorType: id
+06/08/2017 03:01:36 PM - LoginPage - INFO: Sent data on element with locator: pass locatorType: id
+06/08/2017 03:01:36 PM - LoginPage - INFO: Element found with locator: u_0_q and  locatorType: id
+06/08/2017 03:01:36 PM - LoginPage - INFO: Clicked on element with locator: u_0_q locatorType: id
+06/08/2017 03:01:36 PM - TestStatus - ERROR: Verification Failed : Title is wrong.
+06/08/2017 03:01:36 PM - TestStatus - INFO: Screenshot saved to directory /storage/Selenium/py-sel/Tokenization-mock-UI/base/../screenshots/Title is wrong...png
+06/08/2017 03:01:41 PM - LoginPage - INFO: Element not found with locator: //*//span[text()='Jayant'] and  locatorType: xpath
+06/08/2017 03:01:41 PM - LoginPage - INFO: Element not found.
+06/08/2017 03:01:41 PM - TestStatus - ERROR: Verification Failed : Login Failed.
+06/08/2017 03:01:41 PM - TestStatus - INFO: Screenshot saved to directory /storage/Selenium/py-sel/Tokenization-mock-UI/base/../screenshots/Login Failed...png
+06/08/2017 03:01:41 PM - TestStatus - ERROR: testValidLogin Test Failed.

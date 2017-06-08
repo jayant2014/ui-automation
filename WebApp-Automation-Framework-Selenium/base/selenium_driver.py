@@ -6,18 +6,21 @@ Created on 26-May-2017
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 from traceback import print_stack
+from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import *
 import utilities.my_logger as ml
 import logging
+import time
+import os
 
 class SeleniumDriver():
-    
+
     log = ml.myLogger(logging.DEBUG)
-    
+
     def __init__(self, driver):
         self.driver = driver
-        
+
     def getTitle(self):
         """
         Return the title of the page.
@@ -121,3 +124,23 @@ class SeleniumDriver():
             self.log.info("Element not appeared on the web page.")
             print_stack()
         return element
+
+    def getScreenshot(self, message):
+        """
+        Take screenshot of the current page
+        """
+        fileName = message + ".png"
+        screenshotLocation = "../screenshots/"
+        relativeFileName = screenshotLocation + fileName
+        currentLocation = os.path.dirname(__file__)
+        destinationFileName = os.path.join(currentLocation, relativeFileName)
+        destinationLocation = os.path.join(currentLocation, screenshotLocation)
+        
+        try:
+            if not os.path.exists(destinationLocation):
+                os.makedirs(destinationLocation)
+            self.driver.save_screenshot(destinationFileName)
+            self.log.info("Screenshot saved to directory " + destinationFileName)
+        except:
+            self.log.error("Exception occurred!")
+            print_stack()

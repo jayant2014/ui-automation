@@ -6,6 +6,7 @@ Created on 02-Jun-2017
 from pages.home.login_page import LoginPage
 import unittest
 import pytest
+from utilities.test_status  import TestStatus
 
 @pytest.mark.usefixtures("classSetUp", "setUp")
 class LoginTests(unittest.TestCase):
@@ -13,6 +14,7 @@ class LoginTests(unittest.TestCase):
     @pytest.fixture(autouse=True)
     def classSetup(self, classSetUp):
         self.lp = LoginPage(self.driver)
+        self.ts = TestStatus(self.driver)
     
     @pytest.mark.run(order=1)    
     def testValidLogin(self):
@@ -24,8 +26,11 @@ class LoginTests(unittest.TestCase):
         #else:
         #    print("Login Failed")
         
+        result = self.lp.verifyTitle()
+        self.ts.mark(result, "Title is wrong.")
+              
         res = self.lp.verifyLoginSuccesful()
-        assert res == True
+        self.ts.markFinal("testValidLogin", res, "Login Failed.")
     
     #@pytest.mark.run(order=1)
     #def testInvalidLogin(self):

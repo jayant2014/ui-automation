@@ -42,3 +42,9 @@ class LoginPage(SeleniumDriver):
     def verifyLoginFailure(self):
         result = self.isElementPresent("//div[contains(text(),'Incorrect password')]", locatorType="xpath")
         return result
+    
+    def verifyTitle(self):
+        if "Facebook12" in self.getTitle(): 
+            return True
+        else:
+            return False
